@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import { ProfileDescription } from 'components/Task_1/ProfileDescription/ProfileDescription';
-import { ProfileStats } from 'components/Task_1/ProfileStats/ProfileStats';
+import { ProfileDescription } from './ProfileDescription/ProfileDescription';
+import { ProfileStats } from './ProfileStats/ProfileStats';
 import { UserProfile } from './Profile.styled';
 
 export const Profile = ({ user }) => {

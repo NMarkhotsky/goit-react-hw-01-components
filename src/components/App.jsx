@@ -3,11 +3,11 @@ import data from 'data/data';
 import friends from 'data/friends';
 import transactions from 'data/transactions';
 import { GlobalStyle } from 'GlobalStyle';
-import { Profile } from './Task_1/Profile/Profile';
+import { Profile } from './Profile/Profile';
 import { Layout } from './Layout/Layout.styled';
-import { Statistics } from './Task_2/Statistics/Statistics';
-import { FriendList } from './Task_3/FriendList/FriendList';
-import { TransactionHistory } from './Task_4/TransactionHistory/TransactionHistory';
+import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './Friends/FriendList/FriendList';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
 export const App = () => {
   return (
